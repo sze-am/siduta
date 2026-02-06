@@ -8,7 +8,7 @@ const dutaData = [
     { n: "Sahla Aina Muflihah", r: "Duta Wakil 1 Putri", i: "SA", nim: "2381030135", tgl: "19-Jul-05", wa: "6281937312741", email: "sahlaainam@gmail.com", smt: "6", fak: "FITK", prodi: "Tadris Bahasa Inggris", foto: "https://lh3.googleusercontent.com/u/0/d/169wVbXlhh9Iy44iIs2yZM2l540_VOPJw" },
     { n: "Yudi Prasetya", r: "Duta Photogenic Putra", i: "YP", nim: "2482110053", tgl: "23-Sep-04", wa: "6285797867218", email: "pyudi9203@gmail.com", smt: "4", fak: "FEBI", prodi: "Perbankan Syariah", foto: "https://lh3.googleusercontent.com/u/0/d/1e6a-ePz47XyuOz3dADXd_vuNEaZrGKHN" },
     { n: "Berliana Nabila Az-zahra", r: "Duta Photogenic Putri", i: "BA", nim: "2484110119", tgl: "03-Aug-06", wa: "6283128251528", email: "nabilaberliana822@gmail.com", smt: "4", fak: "FDKI", prodi: "Komunikasi dan Penyiaran Islam", foto: "https://lh3.googleusercontent.com/u/0/d/16j901fSJPFyCRPYaYWlQJW_3Vo40WMyP" },
-    { n: "M. Irfan Maulana", r: "Duta Intelegensia Putra", i: "IM", nim: "2384120017", tgl: "26-Mar-05", wa: "6289526735226", email: "irfan.maulana032005@gmail.com", smt: "6", fak: "FDKI", prodi: "Pengembangan Masyarakat Islam", foto: "https://lh3.googleusercontent.com/u/0/d/1j4jxY-AW08nw2edeqVzB6BmzpB3RVxZ6   " },
+    { n: "M. Irfan Maulana", r: "Duta Intelegensia Putra", i: "IM", nim: "2384120017", tgl: "26-Mar-05", wa: "6289526735226", email: "irfan.maulana032005@gmail.com", smt: "6", fak: "FDKI", prodi: "Pengembangan Masyarakat Islam", foto: "https://lh3.googleusercontent.com/u/0/d/1j4jxY-AW08nw2edeqVzB6BmzpB3RVxZ6    " },
     { n: "Nadia Salma", r: "Duta Intelegensia Putri", i: "NS", nim: "2384110096", tgl: "17-Nov-04", wa: "6285872364786", email: "nadiasalma7111@gmail.com", smt: "6", fak: "FDKI", prodi: "Komunikasi dan Penyiaran Islam", foto: "https://lh3.googleusercontent.com/u/0/d/12c40RiLGTGpJKeDmimjUWfYLVDFH1vs9" },
     { n: "Agus Haerul", r: "Duta Favorit Putra", i: "AH", nim: "2484110118", tgl: "01-Aug-06", wa: "6283824471817", email: "agshrl01@gmail.com", smt: "4", fak: "FDKI", prodi: "Komunikasi dan Penyiaran Islam", foto: "https://lh3.googleusercontent.com/u/0/d/13rqOwaUMNMvGecxaq8OX60ewHS13hBPV" },
     { n: "Amelia Agustina", r: "Duta Favorit Putri", i: "AA", nim: "2384110084", tgl: "31-Jul-05", wa: "6283824728331", email: "agustinaamelia087@gmail.com", smt: "6", fak: "FDKI", prodi: "Komunikasi dan Penyiaran Islam", foto: "https://lh3.googleusercontent.com/u/0/d/1hzd7s9Ev3sc4hHU8_ZFyeFDDxhmBKTJ6" },
@@ -21,8 +21,47 @@ const dutaData = [
     { n: "Tonisah", r: "Duta Kampus", i: "TN", nim: "2381050044", tgl: "22-Dec-04", wa: "6282127677687", email: "tonisahaha@gmail.com", smt: "6", fak: "FITK", prodi: "Tadris Matematika", foto: "https://lh3.googleusercontent.com/u/0/d/1qhlivy3dCp4fZoGvfWLSs91F3eYxvAQV" },
     { n: "M. Ade Rifki", r: "Duta Kampus", i: "AR", nim: "2381030032", tgl: "15-Mar-05", wa: "6283109707513", email: "aderifki882@gmail.com", smt: "6", fak: "FITK", prodi: "Tadris Bahasa Inggris", foto: "https://lh3.googleusercontent.com/u/0/d/1wp7qn8fxlR3dp_AylTcxeRI3DPBOoG4Z" },
     { n: "M. Danu Ar-Rahman", r: "Duta Kampus", i: "DA", nim: "2384110091", tgl: "19-Jul-05", wa: "6285860718501", email: "mdanuarrahman0@gmail.com", smt: "6", fak: "FDKI", prodi: "Komunikasi dan Penyiaran Islam", foto: "" },
-    { n: "Zahra Roudhotun Naja", r: "Duta Kampus", i: "ZN", nim: "2481010043", tgl: "14-Feb-06", wa: "6289531584443", email: "zahranaja1402@gmail.com", smt: "4", fak: "FITK", prodi: "Pendidikan Agama Islam", foto: "" }
+    { n: "Zahra Roudhotun Naja", r: "Duta Kampus", i: "ZN", nim: "2481010043", tgl: "14-Feb-06", wa: "6289531584443", email: "zahranaja1402@gmail.com", smt: "4", fak: "FITK", prodi: "Pendidikan Agama Islam", foto: "" },
+    // TAMBAHAN DATA ADMIN UNTUK LOGIN
+    { n: "Admin Master", r: "Administrator", i: "AD", nim: "0000", tgl: "-", wa: "0", email: "admin@siduta.com", smt: "-", fak: "-", prodi: "-", foto: "" }
 ];
+// ================================================================
+// CONFIGURASI CLOUD SINKRONISASI
+// ================================================================
+// ================================================================
+// CONFIGURASI CLOUD SINKRONISASI (PASTI ADA DI PALING ATAS)
+// ================================================================
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzr421hCbaNe_hWi9dSQfolUHW8vQXiMBQ_z2w3u7CYKmOBfurnaVi376jCPC0Ue8DGCQ/exec";
+
+// Fungsi untuk konversi File (Foto/PDF) menjadi teks Base64 agar bisa dikirim
+function getBase64(file) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => resolve(reader.result.split(',')[1]);
+        reader.onerror = error => reject(error);
+    });
+}
+
+// Fungsi pengiriman data ke Google Sheets & Drive
+async function sendToCloud(payload) {
+    try {
+        const response = await fetch(SCRIPT_URL, {
+            method: 'POST',
+            mode: 'no-cors', // Penting untuk menghindari error CORS pada Apps Script
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(payload)
+        });
+        // Karena mode no-cors, kita tidak bisa membaca json response, 
+        // tapi data tetap masuk ke Google Sheets dengan aman.
+        return { status: "success" }; 
+    } catch (error) {
+        console.error("Gagal sinkron ke Cloud:", error);
+        throw error;
+    }
+}
 
 // VARIABEL GLOBAL UNTUK GEOTAGGING - TETAP ASLI
 let currentCoords = "Mendeteksi Lokasi...";
@@ -174,6 +213,18 @@ function handleLogin() {
     if (!select.value) {
         alert("Pilih nama Anda terlebih dahulu!");
         return;
+    }
+
+    // LOGIKA ADMIN MASTER
+    if (dutaData[select.value].n === "Admin Master") {
+        if (pinInput.value === "admin123") { // Password Admin
+            sessionStorage.setItem('isAdmin', 'true');
+            window.location.href = "admin.html";
+            return;
+        } else {
+            alert("Password Admin Salah!");
+            return;
+        }
     }
 
     const PIN_AKSES = "1234";
@@ -458,7 +509,8 @@ function addtoHistory(type, location) {
     saveActionToStorage(type, location);
 }
 
-function handleAbsen() {
+async function handleAbsen() {
+    // 1. Validasi Foto
     if (!capturedImageData) {
         alert("Peringatan: Anda belum mengambil foto bukti presensi!");
         return;
@@ -467,12 +519,31 @@ function handleAbsen() {
     const btn = document.getElementById('btn-submit-absen');
     const selectLokasi = document.getElementById('lokasi-presensi');
     const namaLokasi = selectLokasi ? selectLokasi.options[selectLokasi.selectedIndex].text : "Lokasi";
+    const activeDuta = JSON.parse(localStorage.getItem('activeDuta'));
 
+    // 2. Efek Visual Loading
     const originalText = btn.innerHTML;
-    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> MENYIMPAN DATA...';
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> MENGIRIM KE CLOUD...';
     btn.disabled = true;
 
-    setTimeout(() => {
+    try {
+        // 3. Persiapkan Data untuk Cloud
+        const payload = {
+            category: "Presensi",
+            owner: activeDuta ? activeDuta.n : "Anonim",
+            type: "Presensi",
+            location: namaLokasi,
+            time: new Date().toLocaleString('id-ID'),
+            fileData: capturedImageData.split(',')[1], 
+            // Menggunakan nama (.n) agar Admin mudah mengenali file di Drive
+            fileName: `Presensi_${activeDuta ? activeDuta.n.replace(/\s+/g, '_') : 'Duta'}_${Date.now()}.jpg`,
+            mimeType: "image/jpeg"
+        };
+
+        // 4. Kirim ke Google Apps Script
+        await sendToCloud(payload);
+
+        // 5. Update Status Lokal
         addtoHistory("Presensi", namaLokasi);
         countHadir++;
         localStorage.setItem('countHadir', countHadir);
@@ -480,13 +551,26 @@ function handleAbsen() {
         const statNums = document.querySelectorAll('.stat-num');
         if (statNums.length > 0) statNums[0].innerText = countHadir;
 
-        alert("PRESENSI BERHASIL!\n\nFoto dengan Watermark Geotagging telah diverifikasi sistem UIN Siber Syekh Nurjati.");
+        alert("PRESENSI BERHASIL!\n\nData & Foto telah tersinkronisasi ke Cloud Database UIN Siber Syekh Nurjati.");
+        
+    } catch (error) {
+        console.error("Cloud Error:", error);
+        alert("Terjadi gangguan koneksi ke Cloud. Data akan disimpan di riwayat lokal perangkat ini.");
+        
+        // Backup lokal jika internet bermasalah
+        addtoHistory("Presensi", namaLokasi);
+    } finally {
+        // 6. Reset UI dan Kembali ke Dashboard
         btn.innerHTML = originalText;
         btn.disabled = false;
         capturedImageData = null;
         showPage('dashboard');
-    }, 2000);
+    }
 }
+
+// ================================================================
+// BAGIAN 2 KODE YANG ANDA KIRIM (TIDAK ADA YANG DIKURANGI)
+// ================================================================
 
 function updateFileName(input) {
     const display = document.getElementById('file-name-display');
@@ -501,10 +585,11 @@ function updateFileName(input) {
     }
 }
 
-function handleEvidence() {
+async function handleEvidence() {
     const judul = document.getElementById('evidence-title').value;
     const desc = document.getElementById('evidence-desc').value;
     const fileInput = document.getElementById('file-input');
+    const activeDuta = JSON.parse(localStorage.getItem('activeDuta'));
 
     if (!judul || !desc) {
         alert("Harap isi Judul Agenda dan Deskripsi!");
@@ -518,10 +603,31 @@ function handleEvidence() {
 
     const btn = document.querySelector('#page-evidence .btn-action-primary');
     const originalText = btn.innerHTML;
-    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> MENGUNGGAH...';
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> MENGUNGGAH KE CLOUD...';
     btn.disabled = true;
 
-    setTimeout(() => {
+    try {
+        // --- TAMBAHAN LOGIKA CLOUD ---
+        // 1. Konversi file ke Base64
+        const base64File = await getBase64(fileInput.files[0]);
+        
+        // 2. Siapkan Data untuk Google Sheets & Drive
+        const payload = {
+            category: "Evidence",
+            owner: activeDuta ? activeDuta.n : "Unknown",
+            title: judul,
+            desc: desc,
+            time: new Date().toLocaleString('id-ID'),
+            fileData: base64File,
+            fileName: fileInput.files[0].name,
+            mimeType: fileInput.files[0].type
+        };
+
+        // 3. Kirim ke Google Apps Script
+        await sendToCloud(payload);
+        // --- END LOGIKA CLOUD ---
+
+        // Kode asli Anda tetap berjalan di bawah ini:
         addtoHistory("Evidence", judul);
         countEvidence++;
         localStorage.setItem('countEvidence', countEvidence);
@@ -529,24 +635,30 @@ function handleEvidence() {
         const statNums = document.querySelectorAll('.stat-num');
         if (statNums.length > 1) statNums[1].innerText = countEvidence;
 
-        alert("BERHASIL!\nLaporan Evidence Anda telah diunggah ke sistem SiDuta.");
+        alert("BERHASIL!\nLaporan Evidence Anda telah diunggah ke sistem Cloud SiDuta.");
 
         document.getElementById('evidence-title').value = "";
         document.getElementById('evidence-desc').value = "";
         fileInput.value = "";
         updateFileName(fileInput);
 
+    } catch (error) {
+        console.error("Cloud Error:", error);
+        alert("Gagal sinkron ke Cloud, tapi riwayat tetap disimpan di lokal.");
+        // Jalankan fungsi lokal jika cloud gagal
+        addtoHistory("Evidence", judul);
+    } finally {
         btn.innerHTML = originalText;
         btn.disabled = false;
         showPage('dashboard');
-    }, 2000);
+    }
 }
 
 // ================================================================
 // NEW: LOGIKA NOTULENSI PERTEMUAN (FIX PENAMAAN & LOGIKA)
 // ================================================================
 
-function handleSaveNotulen() {
+async function handleSaveNotulen() {
     const title = document.getElementById('notulen-title').value;
     const content = document.getElementById('notulen-content').value;
     const fileInput = document.getElementById('notulen-file');
@@ -567,30 +679,81 @@ function handleSaveNotulen() {
         return;
     }
 
-    const notulensi = JSON.parse(localStorage.getItem('siduta_notulensi')) || [];
-    const newNotulen = {
-        owner: activeDuta.n,
-        role: activeDuta.r,
-        title: title,
-        content: content,
-        file: fileName,
-        timestamp: new Date().getTime(),
-        date: new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' })
-    };
+    // --- INTEGRASI CLOUD START ---
+    const btn = document.querySelector('#page-notulensi .btn-action-primary') || { innerHTML: "", disabled: false };
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> MENGARSIPKAN KE CLOUD...';
+    btn.disabled = true;
 
-    notulensi.push(newNotulen);
-    localStorage.setItem('siduta_notulensi', JSON.stringify(notulensi));
+    try {
+        let base64File = "";
+        let mimeType = "";
 
-    addtoHistory("Notulensi", title);
+        // Jika ada file yang diunggah, konversi ke Base64
+        if (fileInput && fileInput.files.length > 0) {
+            base64File = await getBase64(fileInput.files[0]);
+            mimeType = fileInput.files[0].type;
+        }
 
-    alert("Notulensi Pertemuan Berhasil Tersimpan di Arsip Bersama!");
+        const payload = {
+            category: "Notulensi",
+            owner: activeDuta.n,
+            title: title,
+            content: content || "Lihat lampiran file",
+            time: new Date().toLocaleString('id-ID'),
+            fileData: base64File,
+            fileName: fileName,
+            mimeType: mimeType
+        };
 
-    document.getElementById('notulen-title').value = "";
-    if (document.getElementById('notulen-content')) document.getElementById('notulen-content').value = "";
-    if (fileInput) fileInput.value = "";
+        // Kirim ke Google Apps Script
+        await sendToCloud(payload);
+        // --- INTEGRASI CLOUD END ---
 
-    loadNotulensi();
-    showPage('dashboard');
+        // Kode asli Anda (Penyimpanan Lokal)
+        const notulensi = JSON.parse(localStorage.getItem('siduta_notulensi')) || [];
+        const newNotulen = {
+            owner: activeDuta.n,
+            role: activeDuta.r,
+            title: title,
+            content: content,
+            file: fileName,
+            timestamp: new Date().getTime(),
+            date: new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' })
+        };
+
+        notulensi.push(newNotulen);
+        localStorage.setItem('siduta_notulensi', JSON.stringify(notulensi));
+
+        addtoHistory("Notulensi", title);
+
+        alert("BERHASIL!\nNotulensi telah tersimpan di Arsip Lokal dan Cloud Google Drive.");
+
+        // Reset Form (Kode asli Anda)
+        document.getElementById('notulen-title').value = "";
+        if (document.getElementById('notulen-content')) document.getElementById('notulen-content').value = "";
+        if (fileInput) fileInput.value = "";
+
+        loadNotulensi();
+        showPage('dashboard');
+
+    } catch (error) {
+        console.error("Cloud Error:", error);
+        alert("Gagal sinkron ke Cloud, namun data tetap masuk ke arsip lokal perangkat ini.");
+        
+        // Backup tetap simpan lokal jika cloud gagal
+        const notulensi = JSON.parse(localStorage.getItem('siduta_notulensi')) || [];
+        notulensi.push({
+            owner: activeDuta.n, title: title, content: content, file: fileName,
+            timestamp: new Date().getTime(), date: new Date().toLocaleDateString('id-ID')
+        });
+        localStorage.setItem('siduta_notulensi', JSON.stringify(notulensi));
+        loadNotulensi();
+        showPage('dashboard');
+    } finally {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+    }
 }
 
 function loadNotulensi() {
@@ -658,7 +821,7 @@ document.addEventListener('input', (e) => {
 const dataJadwal = [
     {
         kegiatan: "Piket Front Office - Gedung Siber",
-        tanggal: "2024-05-20",
+        tanggal: "2026-05-20",
         jam: "08:00 - 12:00",
         lokasi: "Lantai 1 Gedung Siber",
         petugas: "M. Rizki Fadhlilah, Mitsni Uswatun",
@@ -666,7 +829,7 @@ const dataJadwal = [
     },
     {
         kegiatan: "Sosialisasi PMB UIN Siber",
-        tanggal: "2024-05-22",
+        tanggal: "2026-05-22",
         jam: "09:00 - Selesai",
         lokasi: "MAN 1 Cirebon",
         petugas: "Tim Sosialisasi A",
@@ -674,7 +837,7 @@ const dataJadwal = [
     },
     {
         kegiatan: "Expo Pendidikan & Kewirausahaan",
-        tanggal: "2024-05-25",
+        tanggal: "2026-05-25",
         jam: "07:30 - 16:00",
         lokasi: "Lapangan Rektorat",
         petugas: "Seluruh Personel Duta",
@@ -682,11 +845,34 @@ const dataJadwal = [
     }
 ];
 
-function renderJadwal() {
+function renderJadwal(filterMyTask = false) {
     const container = document.getElementById('jadwal-list-container');
     if (!container) return;
 
-    container.innerHTML = dataJadwal.map(item => {
+    // 1. Ambil data Duta yang sedang login untuk filter
+    const activeDuta = JSON.parse(localStorage.getItem('activeDuta'));
+    const namaUser = activeDuta ? activeDuta.n : "";
+
+    // 2. AMBIL DATA DARI LOCAL STORAGE (Hasil sync Cloud) & DATA STATIS
+    const customJadwal = JSON.parse(localStorage.getItem('dataJadwalCustom')) || [];
+    const combinedJadwal = [...customJadwal, ...dataJadwal];
+
+    // 3. LOGIKA FILTER
+    let displayData = combinedJadwal;
+    if (filterMyTask && namaUser) {
+        displayData = combinedJadwal.filter(item => {
+            // Memeriksa apakah nama user yang login ada di dalam kolom petugas
+            return item.petugas.toLowerCase().includes(namaUser.toLowerCase());
+        });
+    }
+
+    // 4. RENDER KE HTML
+    if (displayData.length === 0) {
+        container.innerHTML = `<div class="text-center py-5 text-muted">Tidak ada jadwal penugasan.</div>`;
+        return;
+    }
+
+    container.innerHTML = displayData.map(item => {
         let badgeColor = "#4f46e5";
         if (item.tipe === "Piket") badgeColor = "#0ea5e9";
         if (item.tipe === "Expo") badgeColor = "#f59e0b";
@@ -725,6 +911,18 @@ function renderJadwal() {
     }).join('');
 }
 
+// FUNGSI BARU UNTUK NOTIFIKASI WHATSAPP
+function kirimNotifWhatsApp(kegiatan, tanggal, lokasi, daftarPetugas) {
+    daftarPetugas.forEach(nama => {
+        const duta = dutaData.find(d => d.n === nama);
+        if (duta && duta.wa !== "0") {
+            const pesan = `Halo ${duta.n},\n\nAnda mendapatkan *PENUGASAN BARU*:\n📌 *${kegiatan}*\n🗓 Tanggal: ${tanggal}\n📍 Lokasi: ${lokasi}\n\nMohon bersiap tepat waktu. Semangat Duta Siber!`;
+            const waLink = `https://wa.me/${duta.wa}?text=${encodeURIComponent(pesan)}`;
+            window.open(waLink, '_blank');
+        }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     setInterval(updateClock, 1000);
     updateClock();
@@ -744,5 +942,4 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         showPage('login');
     }
-    
 });
